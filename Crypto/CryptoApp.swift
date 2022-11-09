@@ -11,7 +11,7 @@ import SwiftUI
 struct CryptoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CryptoView(cryptoViewModel: .init(), favoritesViewModel: .init())
         }
     }
 }
